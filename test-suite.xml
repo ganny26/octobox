@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="apitestsuite">
+    <test name="GithubUserTest">
+        <groups>
+            <run>
+                <include name="Github"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.titan.framework"></package>
+            <package name="com.titan.test"></package>
+        </packages>
+    </test>
+</suite>
